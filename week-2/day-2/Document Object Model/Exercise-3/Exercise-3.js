@@ -22,10 +22,12 @@ let namaBuah = [
 let hasilBuah = document.getElementById("buahBuahan")
 
     hasilBuah.innerHTML = namaBuah.map((value) => {
-        return `<div class="card">
-        <img class="card-img-top" src="${value.linkGambar}" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">${value.namaBuah}</h5>
-          <p class="card-text">${value.rasa}</p>
-        </div></div>`
+        return `
+        <div class="card">
+            <img class="card-img-top" src="${value.linkGambar}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">${value.namaBuah}</h5>
+                    <p class="card-text">${value.rasa}</p>
+                </div>
+        </div>`
     })
