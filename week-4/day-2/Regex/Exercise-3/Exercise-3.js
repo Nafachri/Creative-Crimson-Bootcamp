@@ -19,4 +19,3 @@ let myFunction = () => {
     outputUser.innerHTML = tampil;
 }
 myFunction()
-
