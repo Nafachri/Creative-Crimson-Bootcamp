@@ -1,0 +1,74 @@
+/* Body Styling */
+*{
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navs Styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li, a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+/* Biodata Styling */
+#biodata {
+    text-align: center;
+}
+ 
+/* row 2 */
+
+#row2 {
+    text-align: left;
+}
+
+#row2 h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+/* row 3 */
+
+#row3 {
+    text-align: left;
+    flex-grow: 1;
+}
+
+#row3 h3 {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+/*row 4 */
+
+#row4 {
+    text-align: left;
+}
+
+#row4 h3 {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+/* flexbox froggy */
+
+ #row3 img{
+    margin-top: 50px;
+    width: 100%;
+}
+

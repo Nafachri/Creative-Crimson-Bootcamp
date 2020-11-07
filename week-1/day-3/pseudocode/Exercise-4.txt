@@ -1,0 +1,7 @@
+// Project-4
+
+1. buat variable start dengan nilai angka berapa saja,
+2. buat variable end dengan nilai angka berapa saja,
+3. buat perulangan menggunakan while/for loops.
+4. apabila start lebih kecil dari pada end, maka add 1 
+5. print start.

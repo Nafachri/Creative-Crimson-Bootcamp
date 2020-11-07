@@ -1,0 +1,38 @@
+/* navbar styling */
+.navbar {
+    justify-content: center;
+    background-color: rgb(52, 138, 236);
+    padding: 0px;
+}
+
+.navbar a {
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+/* row-styling */
+.rowKiri {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tombolTweet{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.rowKanan {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.rowKanan h1 {
+    text-align: center;
+}
+
+#outputTweet {
+    text-align: left;
+}

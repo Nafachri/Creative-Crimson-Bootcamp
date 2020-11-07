@@ -1,0 +1,9 @@
+// Project-3 
+
+1. buat variable jumlahTraveler yang valuenya adalah number prompt menanyakan berapa jumlah travelernya,
+2. buat variable hargaTiketPesawat yang akan dibayarkan oleh travelernya,
+3. buat variable jenisPerjalanan dengan value true or false,
+4. buat total price wihout any value.
+5. hitung jumlah traveler dengan harga hargaTiketPesawat dan masukan ke dalam total price
+6. buat js conditionals apabila oneway sama dengan true maka print total price
+7. apabila tidak, kalkuasi total price dikali 2 dan print hasil kalkulasi

@@ -1,0 +1,32 @@
+/* Body */
+body{
+    background-color: #692323;
+    color: white;
+}
+/* Header */
+#header h1{
+    text-align: center;
+}
+
+/* Table */
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+
+th, td {
+    padding: 15px;
+  }
+
+#biodata {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

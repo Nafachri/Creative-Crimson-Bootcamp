@@ -1,0 +1,30 @@
+/* body styling */
+body {
+    background-color: black;
+}
+
+/* navbar styling */
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+/* card styling */
+#biodataNaufal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* footer styling */
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer i {
+    margin-left: 10px;
+    color: #dc3545;
+}

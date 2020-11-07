@@ -1,0 +1,7 @@
+// Project-1 
+
+1. buat variable jam yang memiliki value number dan prompt untuk meminta user memilih nomor,
+2. buat variable detik yang memiliki value 3600,
+3. buat variable hasil yang digunakan untuk menampung hasil perkalian jam dan detik.
+4. buat js conditionals, apabila variable diisi dengan 1 makan tampilkan 1 jam = 3600 detik,
+5. selebihnya tampilkan variable hasil perkalian jam dan detik.

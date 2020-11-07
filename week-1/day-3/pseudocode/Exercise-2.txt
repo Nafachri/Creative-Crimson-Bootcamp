@@ -1,0 +1,6 @@
+// Project-2 
+
+1. buat variable num1 yang memiliki value number dan prompt untuk meminta user memilih nomor,
+2. buat variable num2 yang memiliki value number dan prompt untuk meminta user memilih nomor,
+3. buat perbandingan dengan js conditionals untuk membandingkan num1 dan num2 yang sudah diisi user
+4 tampilkan hasil perbandingan nomor tersebut
