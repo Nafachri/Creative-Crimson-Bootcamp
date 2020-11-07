@@ -1,0 +1,25 @@
+Sebuah restaurant AYCE(All You Can Eat) adalah sebuah restaurant yang pengunjungnya bisa terus order makan dan memakan pesanannya 
+sampai waktu yang diberikan oleh restaurant habis. Setiap customer memesan makanan dan memakan pesanannya menghabiskan waktu selama
+15 menit. Customer tetap bisa order makanan selama waktunya belum 0.
+
+Buatlah sebuah fungsi yang dapat menghitung berapa kali seorang customer dapat melakukan order makanan dalam waktu yang 
+sudah ditentukan (WAJIB MENGGUNAKAN REKURSIF)
+
+Contoh:
+
+45 => 3
+
+100 => 7
+
+10 => 1
+
+function allYouCanEat(waktu) {
+  // you can only write your code here!
+}
+
+// TEST CASES
+console.log(allYouCanEat(66)); // 5
+console.log(allYouCanEat(100)); // 7
+console.log(allYouCanEat(90)); // 6
+console.log(allYouCanEat(10)); // 1
+console.log(allYouCanEat(0)); // 0
