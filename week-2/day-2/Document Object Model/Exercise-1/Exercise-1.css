@@ -1,5 +1,6 @@
 /* navbar styling */
 .navbar {
+    display: flex;
     justify-content: center;
     background-color: rgb(52, 138, 236);
     padding: 0px;
