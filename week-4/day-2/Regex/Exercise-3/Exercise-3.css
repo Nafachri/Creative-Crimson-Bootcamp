@@ -1,4 +1,15 @@
-#output-user{
+#header {
+    margin-top: 10%;
+}
+
+/* Form Styling */
+#input-form{
+    text-align: center;
+    margin-top: 4%;
+}
+
+/* Output User Styling */
+#output-user-topic{
     text-align: center;
     margin-top: 20%;
 }
