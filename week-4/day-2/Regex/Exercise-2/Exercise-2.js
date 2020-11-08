@@ -1,22 +1,19 @@
-let myRegex = /^\d{10,12}$/g;
-let myNumber = Number(prompt("Input Your Phone Number, Min 10 Max 12"))
-let hasil = myRegex.test(myNumber);
-
-if(hasil){
-    console.log("You're number is right")
-    alert("You're number is right")
-}else{
-    console.log("Please input min 10 number & max 12 number");
-    alert("Please input min 10 number & max 12 number");
-}
-
-// DOM 
-
-let userNumber = document.getElementById("user-number")
+let inputNumberUser = document.getElementById("input-number-user")
+let buttonClick = document.getElementById("button-click")
+let outputUserNumber = document.getElementById("output-user-number")
 
 let myFunction = () => {
-    let tampil = myNumber;
-    userNumber.innerHTML = `Your Phone Number was : ${tampil}`
-}
-myFunction()
+    let myRegex = /^\d{10,12}$/g;
+    let userNumber = inputNumberUser.value;
+    let test = myRegex.test(userNumber);
 
+    if(test){
+        outputUserNumber.innerHTML = `Nomor Anda Adalah : ${userNumber}`
+        console.log("Nomor Inputan Benar");
+    }else{
+        outputUserNumber.innerHTML = `Nomor Anda Tidak Memenuhi Syarat ! Minimal 10 Digit Maksimal 12 Digit`
+        console.log("Nomor Inputan Salah");
+    }
+    return false;
+}
+buttonClick.onclick = myFunction;

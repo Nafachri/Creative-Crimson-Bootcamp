@@ -1,4 +1,16 @@
-#user-number {
+/* Body Styling */
+body{
+    background-color: pink;
+}
+
+/* Form Styling */
+#input-form{
     text-align: center;
-    margin-top: 20%;
+}
+
+/* Output Number Styling */
+#output-user-number {
+    text-align: center;
+    margin-top: 10%;
+    color: white;
 }
