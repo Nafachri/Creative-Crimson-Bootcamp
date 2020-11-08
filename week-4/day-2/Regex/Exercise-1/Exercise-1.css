@@ -1,4 +1,16 @@
-#nama-user {
+body {
+    background-color: pink;
+}
+
+/* Form Styling */
+form {
+    margin-top: 10%;
     text-align: center;
-    margin-top: 20%
+}
+
+/* Div Output Styling */
+.output {
+    margin-top: 8%;
+    text-align: center;
+    color: white;
 }
