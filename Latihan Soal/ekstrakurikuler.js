@@ -10,6 +10,7 @@
    function javascript (.filter(), .map(), .reduce(), .includes(), .indexOf(), dan lain-lain)
 */
 
+
 let data = 
 [
   {
@@ -34,35 +35,11 @@ let data =
   }
 ]
 
-let getData = () => {
-  for(let i = 0; i < data.length; i++){
-    console.log(data[i]);
-  }
+function ekstrakurikuler(data){
+  
 }
-getData()
-
-let eskul = () => {
-  for(let j = 0; j < data.length; j ++){
-    if(data[j].club.includes("Bulutangkis")){
-      console.log(data[j])
-    }
-  }
-}
-
-eskul()
-
-
-
-
-
-
-// function ekstrakurikuler(data){
-//   for(let i = 0; i < data.length; i++){
-//     console
-//   }
-// }
-// ​
-// console.log(ekstrakurikuler(data));
+​
+console.log(ekstrakurikuler(data));
 
 /* example output:
 {
