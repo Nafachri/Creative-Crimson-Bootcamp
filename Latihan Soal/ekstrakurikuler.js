@@ -36,11 +36,24 @@ let data =
 ]
 
 
-function ekstrakurikuler(data){
-  
+
+let getData = (data) => {
+  let obj = {};
+  for(let i = 0; i < data.length; i++){
+    for(let j = 0; j < data[i].club.length; j++){
+      if(!(data[i].club[j] in obj)){
+        obj[data[i].club[j]] = {[data[i].class]:[data[i].name]}
+      }else if(data[i].class in obj[data[i].club[j]]){
+        obj[data[i].club[j]][data[i].class][obj[data[i].club[j]][data[i].class].length] = data[i].name
+      }else{
+        obj[data[i].club[j]][data[i].class] = [data[i].name]
+      }
+    }
+  }
+  return obj
 }
-​
-console.log(ekstrakurikuler(data));
+console.log(getData(data))
+// console.log(ekstrakurikuler());
 
 /* example output:
 {
