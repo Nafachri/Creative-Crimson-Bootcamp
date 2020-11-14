@@ -1,33 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-import React, { Component, useState } from 'react';
+import React from 'react';
+import FunctionComponent from './components/FunctionComponent'
+import KelasKomponen from './components/ClassComponent';
 
-function CountingNum (){
 
-  const [count, setCount] = useState(0)
 
-  function tambah(){
-    setCount(count + 1)
-  }
-
-  function kurang(){
-    if(count === 0){
-
-    }else{
-      setCount(count - 1)
-    }
-  }
-
+function App(){
   return(
     <>
-    <p>{count}</p>
-    <button onClick={kurang}>-</button>
-    <button onClick={tambah}>+</button>
+      <div className="bungkus">
+        <div className="component1">
+          <h2>Function Component</h2>
+        <FunctionComponent />
+        </div>
+        <div className="component2">
+        <h2>Class Component</h2>
+        <KelasKomponen />
+        </div>
+      </div>
     </>
   )
 }
 
-export default CountingNum;
+
+export default App;
 
 //import React from 'react'
 //membuat function component countingnum

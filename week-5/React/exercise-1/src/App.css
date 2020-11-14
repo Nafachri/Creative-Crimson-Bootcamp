@@ -1,6 +1,16 @@
-/* button styling */
-div {
-  float: left;
+/* Styling for Function and Class Component */
+.bungkus {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.component1 {
+  color: plum;
+}
+
+.component2 {
+  margin-top: 10%;
+  color: orange;
 }
 
 /* .App {
