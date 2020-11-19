@@ -1,0 +1,12 @@
+.todo-list-heading {
+  margin: 20px 0;
+}
+
+.todo-list-heading span,
+.todo-item span {
+  margin-right: 25px;
+}
+
+.todo-item {
+  margin: 10px 0;
+}
