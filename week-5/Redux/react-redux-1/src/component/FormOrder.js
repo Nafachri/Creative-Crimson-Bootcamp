@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 
 export default function FormOrder({ handleAddItem }) {
+  // console.log(handleAddItem);
   const [product, setProduct] = useState("");
   const [quantity, setQuantity] = useState("");
   const [price, setPrice] = useState("");
