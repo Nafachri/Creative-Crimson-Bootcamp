@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import { Card, CardDeck, Button } from "react-bootstrap";
-import "./ListItem.css";
 
 function ListItem() {
   const [digimons, setDigimons] = useState([]);
