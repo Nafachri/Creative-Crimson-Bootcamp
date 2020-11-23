@@ -39,9 +39,13 @@ export default function FormOrder({ handleAddItem }) {
     setPrice(price.target.value);
   };
 
+  const Form = styled.form`
+    background-color: yellow;
+  `;
+
   return (
     <div>
-      <form>
+      <Form>
         <input
           onChange={productHandler}
           type="text"
@@ -61,7 +65,7 @@ export default function FormOrder({ handleAddItem }) {
           placeholder="Price"
         ></input>
         <input onClick={click} type="submit" value="submit"></input>
-      </form>
+      </Form>
     </div>
   );
 }
